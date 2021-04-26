@@ -19,18 +19,11 @@ A React Native based project to be used as starter for developing a hybrid mobil
 -   Txt
 -   Form
 
-It's a React application built with [TypeScript](https://www.typescriptlang.org/) and [TailwindsCSS](https://tailwindcss.com/).
-It includes linting with [ESLint](https://eslint.org/) and formatting with [Prettier](https://prettier.io/).
-
 ## Local Development
 
-To run the project in development mode simply run `npm start` or `npm run build`.
+To run the project in development mode simply run `npm start` followed by `npm run ios` or `npm run android`.
 
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+Runs the app in the development mode and a Simulator/Emulator should pop up.
 
 ## Linting / Formatting
 
@@ -38,4 +31,4 @@ To check the project for coding errors run `npm run lint`. To format the code to
 
 ## Production
 
-To build the project for production run `npm run build`.
+To build the project for production run `npm run build:ios`
