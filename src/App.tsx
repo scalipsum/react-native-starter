@@ -1,6 +1,8 @@
 import React from 'react';
-import { SafeAreaView, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { t } from 'react-native-tailwindcss';
+import Wrapper from './common/components/elements/Wrapper';
+import Globals from './common/Globals';
 
 const styles = {
 	container: [t.hFull, t.justifyCenter, t.itemsCenter],
@@ -10,11 +12,12 @@ const styles = {
 
 const App = () => {
 	return (
-		<SafeAreaView style={styles.container}>
+		<Wrapper type="fullScreenView" style={styles.container}>
 			<View style={styles.textContainer}>
 				<Text style={styles.text}>Chelsea Apps Project Starter</Text>
 			</View>
-		</SafeAreaView>
+			<Globals />
+		</Wrapper>
 	);
 };
 
