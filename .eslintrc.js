@@ -38,5 +38,6 @@ module.exports = {
 		'@typescript-eslint/no-non-null-assertion': 'off',
 		'react-hooks/exhaustive-deps': 'warn',
 		'@typescript-eslint/no-shadow': 'off',
+		'@ts-expect-error': 'allow-with-description',
 	},
 };
