@@ -5,7 +5,7 @@ import { t } from 'react-native-tailwindcss';
 const styles = {
 	container: [t.hFull, t.justifyCenter, t.itemsCenter],
 	textContainer: [t.bgYellow400, t.p4],
-	text: [t.fontBlack, t.uppercase],
+	text: [t.fontBold, t.uppercase],
 };
 
 const App = () => {
